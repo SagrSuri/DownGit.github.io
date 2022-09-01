@@ -50,10 +50,10 @@ a{
 }
 
 .donate-button{
-    color: #c7c7c7;
+    color: #a7a7a7;
 }.donate-button:hover{
     text-decoration: none;
-    color: #fc4e4e;
+    color: #ff4444;
 }
 
 /**********************************/
