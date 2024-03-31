@@ -2,18 +2,21 @@
 <div class="text-center">
 
     <div class="vertical-space"></div>
-    <h1><a href="https://downgit.github.io/#/">DownGit</a></h1>
+    <!-- <h1><a href="https://downgit.github.io/#/">DownGit</a></h1> -->
+    <h1 style="font-weight: bold;">Download Specific Folder of Github.</h1>
     <div class="center-row"></div>
-    <h4>Create GitHub Resource Download Link</h4>
+    <!-- <h4>Create GitHub Resource Download Link</h4> -->
+    <h4 style="margin-top: 5rem; margin-bottom: 0; font-family: 'Times New Roman', Times, serif;">Paste github folder path link to download zip of specific folder.</h4>
     
     
     <div class="vertical-space"></div>
     <div class="col-md-6 center-row">
-        <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
+        <input style="font-family: 'Times New Roman', Times, serif; font-size: large; color: #0000ff;" name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
     </div>
     <div class="btn-group center-row">
-        <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
-        <button type="button" class="btn btn-default" ng-click="download()">Download</button>
+       
+        <!-- <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button> -->
+        <button style="background-color: #64e35b; border-radius: 2rem; padding: 0.7rem 2rem; margin-top: 1rem;" type="button" class="btn btn-default" ng-click="download()">Download</button>
     </div>
     
     
@@ -30,11 +33,12 @@
     </div>
     
     <div class="vertical-space"></div>
-    <div class="footer">
+    <button style="border-radius: 2rem; background-color: #bfc1ca;" type="button" class="btn btn-default"><a href="https://github.com/sagrsuri">Follow</a></button>
+    <!-- <div class="footer">
         <a class="donate-button" target="_blank" href="https://www.paypal.com/donate/?business=5KR6BA9MYTM62&no_recurring=0&currency_code=USD">Donate to The Project</a>
         <div class="vertical-space"></div>
         <a target="_blank" href="https://github.com/MinhasKamal/DownGit">DownGit</a> by <a target="_blank" href="https://github.com/MinhasKamal">Minhas Kamal</a>
-    </div>
+    </div> -->
     
 </div>
 </div>
